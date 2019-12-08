@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">LimeTestApp</string>
+    <string name="renew">Обновить</string>
+    <string name="connection_error">Что-то пошло не так.
+        Проверьте соединение с интернетом.</string>
+    <string name="valute_name">Валюта</string>
+    <string name="valute_rate">Курс</string>
+    <string name="valute_code">Код</string>
+    <string name="title">Курсы валют ЦБ РФ</string>
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/rv_item_height">
+    <View
+        android:id="@+id/view_offset_helper"
+        android:layout_width="10dp"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/item_name"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        style="@style/AppTheme.ListTextView"
+        tools:text="Dollar of US" />
+
+    <TextView
+        android:id="@+id/item_rate"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        style="@style/AppTheme.ListTextView"
+        tools:text="65.05" />
+
+    <TextView
+        android:id="@+id/item_code"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        style="@style/AppTheme.ListTextView"
+        tools:text="USD" />
+
+</LinearLayout>
